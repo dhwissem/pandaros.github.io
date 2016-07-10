@@ -1,0 +1,15 @@
+.footer-social.text-center a img {
+    height: 14px;
+    margin-top: -6px;
+}
+
+.footer-social a img {
+    height: 22px;
+    width: auto;
+    opacity: 0.8;
+    margin-top: -10px;
+}
+
+.skills-item div img {
+    max-height: 48px
+}
