@@ -13,3 +13,18 @@
 .skills-item div img {
     max-height: 48px
 }
+
+.personal-about::after {
+    background-color: #236969;
+}
+
+.font-color-toggle-white-black {
+    color: black;
+}
+
+@media (max-width: 991px) {
+    .font-color-toggle-white-black {
+        color: white;
+    }
+
+}
