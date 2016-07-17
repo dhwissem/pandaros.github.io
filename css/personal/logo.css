@@ -1,0 +1,101 @@
+
+#rect3359-0, #rect3338-3-0, #rect3359-6-1, #g4245, #rect3338, #rect3359-6, #g4286, #g4290 {
+
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: both;
+
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+/* L Animation*/
+#rect3359-0, #rect3338-3-0 {
+    -webkit-animation-name: logo_L; /* Chrome, Safari, Opera */
+    animation-name: logo_L;
+}
+
+/* G Animation*/
+#rect3338, #rect3359-6-1, #rect3359-6 {
+    -webkit-animation-name: logo_G; /* Chrome, Safari, Opera */
+    animation-name: logo_G;
+}
+
+/* Animation logo_left */
+#g4286 {
+    -webkit-animation-name: logo_left; /* Chrome, Safari, Opera */
+    animation-name: logo_left;
+}
+
+/* Animation logo_left */
+#g4290 {
+    -webkit-animation-name: logo_right; /* Chrome, Safari, Opera */
+    animation-name: logo_right;
+}
+
+@keyframes logo_L {
+    100% {
+        fill: #1B5E20;
+        transform: rotate(-45deg) translateX(-220px);
+        left: -40px;
+    }
+}
+
+@-webkit-keyframes logo_L {
+    100% {
+        fill: #1B5E20;
+        transform: rotate(-45deg) translateX(-220px);
+        left: -40px;
+    }
+}
+
+@keyframes logo_G {
+    100% {
+        fill: #81C784;
+    }
+}
+
+@-webkit-keyframes logo_G {
+    100% {
+        fill: #81C784;
+    }
+}
+
+@keyframes logo_left {
+    0% {
+        transform: translateX(464px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes logo_left {
+    0% {
+        transform: translateX(464px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes logo_right {
+    0% {
+        transform: translateX(464px);
+    }
+    100% {
+        transform: translateX(928px);
+    }
+}
+
+@-webkit-keyframes logo_right {
+    0% {
+        transform: translateX(464px);
+    }
+    100% {
+        transform: translateX(928px);
+    }
+}

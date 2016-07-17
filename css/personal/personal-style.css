@@ -9,6 +9,13 @@
     opacity: 0.8;
     margin-top: -10px;
 }
+.logo-object{
+    pointer-events: none;
+}
+
+.logo-object-link{
+    display: inline-block;
+}
 
 .skills-item div img {
     max-height: 48px
@@ -26,5 +33,4 @@
     .font-color-toggle-white-black {
         color: white;
     }
-
 }
